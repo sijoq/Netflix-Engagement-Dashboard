@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Engagement Dashboard</title>
+</head>
+<body>
+    <h1>Netflix Engagement Dashboard</h1>
+    
+    <h2>Daily Watch Time Distribution</h2>
+    <img src="data:image/png;base64,{{ hist_url }}" alt="Histogram">
+
+    <h2>Engagement Rate by Subscription Plan</h2>
+    <img src="data:image/png;base64,{{ boxplot_url }}" alt="Boxplot">
+
+    <h2>Churn Rate by Subscription Plan</h2>
+    <img src="data:image/png;base64,{{ churn_url }}" alt="Churn Rate">
+</body>
+</html>
